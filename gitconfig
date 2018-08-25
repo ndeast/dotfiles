@@ -1,7 +1,7 @@
 # This is Git's per-user configuration file.
 [user]
 	email = nik@ndeast.com
-    name = Nik Eastburn
+  name = Nik Eastburn
 
 [alias]
 
@@ -9,6 +9,7 @@ cp = cherry-pick
 st = status -s
 cl = clone
 ci = commit
+cim = commit -m
 co = checkout
 br = branch
 diff = diff --word-diff
