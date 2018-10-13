@@ -26,3 +26,8 @@ call plug#end()
 silent! colorscheme nord
 " Activate nord airline theme
 let g:airline_theme='nord'
+
+"
+" Misc Settings
+"
+set nu
