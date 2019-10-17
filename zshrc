@@ -1,7 +1,7 @@
-if [ -z "$TMUX" ] # When zsh is started attach to current tmux session or create a new one
-then
-    tmux attach -t TMUX || tmux new -s TMUX
-fi
+#if [ -z "$TMUX" ] # When zsh is started attach to current tmux session or create a new one
+#then
+#    tmux attach -t TMUX || tmux new -s TMUX
+#fi
 
 export ZSH=/Users/nik/.oh-my-zsh
 
