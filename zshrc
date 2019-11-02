@@ -24,6 +24,7 @@ source $ZSH/oh-my-zsh.sh
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=5'
 
+export ITERM2_SQUELCH_MARK=1
 source ~/.iterm2_shell_integration.zsh
 
 if command -v brew >/dev/null 2>&1; then
