@@ -16,10 +16,13 @@ zsh-completions
 zsh-syntax-highlighting
 colored-man-pages
 z
+poetry
 )
 
+fpath+=~/.zfunc
 autoload -U compinit && compinit # reload completions for zsh-completions
 
+export PATH="$HOME/.poetry/bin:$PATH"
 source $ZSH/oh-my-zsh.sh
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=5'

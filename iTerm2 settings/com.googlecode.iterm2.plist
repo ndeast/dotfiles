@@ -767,7 +767,7 @@
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>393 131 796 486 0 0 1440 878 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>560 224 650 513 0 0 1680 1027 </string>
+	<string>187 478 650 513 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>700 206 650 513 0 0 1680 1027 </string>
 	<key>New Bookmarks</key>
@@ -1568,7 +1568,7 @@
 							<key>knobs</key>
 							<dict>
 								<key>abbreviate-localhost</key>
-								<string></string>
+								<string>leatherface</string>
 								<key>base: compression resistance</key>
 								<integer>1</integer>
 								<key>base: priority</key>
@@ -1580,13 +1580,13 @@
 									<key>Alpha Component</key>
 									<real>1</real>
 									<key>Blue Component</key>
-									<real>0.90000000000000002</real>
+									<real>0.89999997615814209</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<real>0.90000000000000002</real>
+									<real>0.89999997615814209</real>
 									<key>Red Component</key>
-									<real>0.63</real>
+									<real>0.62999999523162842</real>
 								</dict>
 							</dict>
 							<key>layout advanced configuration dictionary value</key>
@@ -2329,7 +2329,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>276B10F2-28E6-4FEA-9B07-93474269CFEB</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>5</integer>
+	<integer>6</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
 	<real>591992141.32382596</real>
 	<key>NoSyncOnboardingWindowHasBeenShown</key>
@@ -3100,7 +3100,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-10-30T21:46:40Z</date>
+	<date>2019-11-09T19:03:40Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateRelaunchingMarker</key>
