@@ -37,6 +37,10 @@ function unzip ($file) {
 	expand-archive $file -OutputPath $dirname -ShowProgress
 }
 
+function bbackend {
+	mvn clean install cargo:undeploy cargo:deploy -P docker
+}
+
 
 # Unixlike commands
 #######################################################
@@ -158,5 +162,3 @@ del alias:gp -Force
 
 Set-Alias -Name gc -Value checkout
 Set-Alias -Name gp -Value pull
-
-Import-Module 'C:\tools\poshgit\dahlbyk-posh-git-9bda399\src\posh-git.psd1'
