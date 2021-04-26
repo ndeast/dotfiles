@@ -154,6 +154,10 @@ function pstree {
 # Aliases
 #######################################################
 
+$dev = "C:\Users\Nik Eastburn\Documents\development"
+$front = "C:\Users\Nik Eastburn\Documents\development\srs-frontend"
+$back = "C:\Users\Nik Eastburn\Documents\development\srs-backend"
+
 function pull () { & get pull $args }
 function checkout () { & git checkout $args }
 
