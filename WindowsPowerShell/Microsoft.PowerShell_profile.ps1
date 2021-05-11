@@ -150,6 +150,12 @@ function pstree {
 		Show-ProcessTree $Process.ProcessId 0
 	}
 }
+# Posh Git
+# Install-PackageProvider NuGet -MinimumVersion '2.8.5.201' -Force
+# Set-PSRepository -Name PSGallery -InstallationPolicy Trusted
+# Install-Module -Name 'posh-git'
+################################################################
+Import-Module -Name posh-git
 
 # Aliases
 #######################################################
